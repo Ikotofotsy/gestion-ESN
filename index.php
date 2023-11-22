@@ -1,8 +1,10 @@
 <?php
     require 'vendor/autoload.php';
 
-    use Esn\Entity\Company;
-    use Esn\Entity\Employee;
+    use Esn\Entity\{
+        Company,
+        Employee
+    };
 
 
 
@@ -47,10 +49,16 @@
 
     $c->delCollabs($e1);
     $c->delCollabs($e2);
+    
+    //Utilisateur imprudent
+    $c->delCollabs($e4);
+    
     $c->delCollabs($e3);
 
     //Utilisateur imprudent
     $c->delCollabs($e3);
+
+
     print("\nNom Societe : " . $c->getName() . " / Nombre Dev " . $c->getNbDev(). "\n");
 
 
