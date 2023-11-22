@@ -1,0 +1,15 @@
+{
+    "name": "nyrina/esn",
+    "autoload": {
+        "psr-4": {
+            "Esn\\": "esn/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ikotofotsy",
+            "email": "nyrinaratovo@gmail.com"
+        }
+    ],
+    "require": {}
+}
