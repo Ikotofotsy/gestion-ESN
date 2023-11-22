@@ -12,11 +12,6 @@
         private int $nbDev;
         private array $collaborators;
 
-        public function getColl()
-        {
-            return $this->collaborators;
-        }
-
         public function setName(?String $name)
         {
             $this->name = $name;
